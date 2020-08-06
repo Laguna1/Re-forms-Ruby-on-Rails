@@ -15,7 +15,7 @@
 * Clone this repository
 * You need to have Rails environment installed,
  [Click here for instructions](https://guides.rubyonrails.org/getting_started.html)
-* Clone this repository 
+
 * Run rails db:migrate. It creates the database with the corresponding tables, columns and associations
 *    $ rails db:migrate
 * You can test it  by running
@@ -55,27 +55,3 @@ Feel free to check the [issues page]().
 
 Give a ⭐️ if you like this project!
 
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

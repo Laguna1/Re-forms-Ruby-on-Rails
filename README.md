@@ -22,6 +22,9 @@
 *    $ rails test
 * Run the rails server
 *    $ rails server
+* On your browser
+* http://localhost:3000/users/new
+* http://localhost:3000/users/1/edit
 
 ![screenshot](./Screenshot1.png)
 ![screenshot](./Screenshot2.png)

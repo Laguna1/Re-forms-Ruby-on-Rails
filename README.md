@@ -23,19 +23,15 @@
 * Run the rails server
 *    $ rails server
 
-
-
-
-
+![screenshot](./Screenshot1.png)
+![screenshot](./Screenshot2.png)
 
 ## Authors
-
 
 👤 **Morah Paul**
 
 - GitHub:[@github/chinweokwu](https://github.com/chinweokwu)
-- Linkedin:[Morah Paul](https://www.linkedin.com/)
-
+- Linkedin:[linkedin/morah](https://www.linkedin.com/)
 
 👤 **Oksana Petrova**
 
@@ -43,15 +39,11 @@
 - Linkedin:[linkedin/OksanaPetrova](https://www.linkedin.com/in/oksana-petrova/)
 - Twitter:[@OksanaP48303303](https://twitter.com/OksanaP48303303)
 
-
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
 Feel free to check the [issues page]().
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-

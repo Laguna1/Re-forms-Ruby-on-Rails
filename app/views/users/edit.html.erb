@@ -1,0 +1,13 @@
+<h1>Edit user <%=@user.username%> </h1>
+<%= form_for @user do |f| %>
+username
+<%= f.text_field :username %>
+<br><br>
+email
+<%= f.text_field :email %>
+<br><br>
+password
+<%= f.password_field :password %>
+<br><br>
+<%= f.submit %>
+<% end %> 

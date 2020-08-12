@@ -1,0 +1,51 @@
+<%# <h1>HTML Form</h1>
+<form accept-charset="UTF-8" action="/users" method="post">
+   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>
+  <%# <label>Username
+  <input name="user[name]" type="text" placeholder="Username" />
+  </label>
+  <br><br>
+  <label>Email
+  <input name="user[email]" type="text" placeholder="Email" />
+  </label>
+  <br><br>
+  <label>Password
+  <input name="user[password]" type="password" placeholder="Password" />
+  </label>
+  <br><br>
+  <input name="submit" type="submit" value="Submit">
+<%# </form> %> 
+
+
+<%# <h1>HTML Form / Railsy Forms with #form_tag</h1>
+
+<%= form_tag("/users", method: "post" ) do %>
+<%# <%= label_tag(:username, "Username") %>
+<%# <%= text_field_tag(:username) %>
+<%# <br><br>
+<%= label_tag(:email, "Email") %>
+<%# <%= text_field_tag(:email) %>
+<%# <br><br>
+<%= label_tag(:password, "Password") %>
+<%# <%= password_field_tag(:password) %>
+<%# <br><br>
+<%= submit_tag("Submit") %>
+<%# <% end %> 
+
+<h1>HTML Form / Railsy Forms</h1>
+
+<h2>New User</h2>
+
+<%= form_for @user do |f| %>
+<%= f.label :username %> 
+<%= f.text_field :username, placeholder: 'Your user name here' %>
+<br><br>
+<%= f.label :email %> 
+<%= f.text_field :email, placeholder: 'example@example.com' %>
+<br><br>
+<%= f.label :password%> 
+<%= f.text_field :password, placeholder: 'Enter your password' %>
+<br><br>
+<%= f.submit 'Submit'%>
+<% end %> 
+

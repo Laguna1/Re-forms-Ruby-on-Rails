@@ -1,24 +1,52 @@
-# README
+# RE-FORM
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## This is part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum. Find it at http://www.theodinproject.com
 
-Things you may want to cover:
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby 2.7.0
+- Rails 5.2.4.3
+- VSCode
 
-* Configuration
+## Getting start
 
-* Database creation
+* In order to start with the project:
+* Clone this repository
+* You need to have Rails environment installed,
+ [Click here for instructions](https://guides.rubyonrails.org/getting_started.html)
 
-* Database initialization
+* Run rails db:migrate. It creates the database with the corresponding tables, columns and associations
+*    $ rails db:migrate
+* You can test it  by running
+*    $ rails test
+* Run the rails server
+*    $ rails server
+* On your browser
+* http://localhost:3000/users/new
+* http://localhost:3000/users/1/edit
 
-* How to run the test suite
+![screenshot](./Screenshot1.png)
+![screenshot](./Screenshot2.png)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+👤 **Morah Paul**
 
-* ...
+- GitHub:[@github/chinweokwu](https://github.com/chinweokwu)
+- Linkedin:[linkedin/morah](https://www.linkedin.com/)
+
+👤 **Oksana Petrova**
+
+- GitHub:[@github/Laguna1](https://github.com/Laguna1)
+- Linkedin:[linkedin/OksanaPetrova](https://www.linkedin.com/in/oksana-petrova/)
+- Twitter:[@OksanaP48303303](https://twitter.com/OksanaP48303303)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page]().
+
+## Show your support
+
+Give a ⭐️ if you like this project!
